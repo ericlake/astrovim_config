@@ -6,4 +6,14 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  -- {
+  --   "m4xshen/smartcolumn.nvim",
+  --   opts = {
+  --     -- colorcolumn = "40",
+  --     -- disabled_filetypes = { "help", "text", "markdown" },
+  --     custom_colorcolumn = {},
+  --     scope = "file",
+  --   },
+  -- },
 }
