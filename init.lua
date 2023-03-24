@@ -67,7 +67,7 @@ return {
     vim.filetype.add {
       extension = {
         envsubst = "yaml",
-        tf = "json",
+        tfvars = "terraform",
       },
     }
     -- vim.filetype.add {
