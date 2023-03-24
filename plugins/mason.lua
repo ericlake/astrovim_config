@@ -14,7 +14,7 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = { "ansible-language-server", "bash-language-server", "black", "mypy", "terraform-ls",
-        "typescript-language-server" },                                                                                                        -- "prettier", "stylua",
+        "typescript-language-server" },
     },
   },
   {
