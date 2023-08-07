@@ -34,6 +34,7 @@ return {
           -- "python",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
+          "javascript"
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
@@ -69,6 +70,7 @@ return {
       extension = {
         envsubst = "yaml",
         tfvars = "terraform",
+        hcl = "terraform",
       },
     }
     -- vim.filetype.add {
