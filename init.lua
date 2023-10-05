@@ -72,6 +72,9 @@ return {
         tfvars = "terraform",
         hcl = "terraform",
       },
+      filename = {
+        ["Jenkinsfile"] = "groovy",
+      }
     }
     -- vim.filetype.add {
     --   extension = {
