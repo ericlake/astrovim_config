@@ -25,6 +25,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>gB"] = { "<cmd>ToggleBlame virtual<cr>", desc = "Toggle git blame"}
   },
   t = {
     -- setting a mapping to false will disable it
