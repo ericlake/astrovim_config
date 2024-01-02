@@ -8,6 +8,11 @@ return {
       ["core.defaults"] = {}, -- Loads default behaviour
       ["core.concealer"] = {}, -- Adds pretty icons to your documents
       ["core.keybinds"] = {}, -- Adds default keybindings
+      -- ["core.tempus"] = {},
+      ["core.ui"] = {},
+      -- ["core.ui.calendar"] = {},
+      ["core.export"] = {},
+      ["core.export.markdown"] = {},
       ["core.completion"] = {
         config = {
           engine = "nvim-cmp",

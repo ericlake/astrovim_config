@@ -11,7 +11,7 @@ return {
         filtered_items = {
           hide_dotfiles = false,
           hide_gitignored = false,
-          hide_hidden = false
+          hide_hidden = false,
         },
         follow_current_file = true,
       },
@@ -20,7 +20,7 @@ return {
       git_status_async = true,
       window = {
         width = 35,
-      }
-    }
-  }
+      },
+    },
+  },
 }

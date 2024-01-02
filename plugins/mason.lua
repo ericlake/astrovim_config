@@ -13,8 +13,14 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      ensure_installed = { "ansible-language-server", "bash-language-server", "black", "mypy", "terraform-ls",
-        "typescript-language-server" },
+      ensure_installed = {
+        "ansible-language-server",
+        "bash-language-server",
+        "black",
+        "mypy",
+        "terraform-ls",
+        "typescript-language-server",
+      },
     },
   },
   {
