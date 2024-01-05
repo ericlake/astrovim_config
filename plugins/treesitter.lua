@@ -1,6 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
-    ensure_installed = { "javascript", "lua", "python", "terraform" },
+    ensure_installed = { "groovy", "javascript", "lua", "python", "terraform" },
   },
 }
