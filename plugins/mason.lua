@@ -5,7 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      ensure_installed = { "gopls", "lua_ls", "marksman", "pyright" },
+      ensure_installed = { "gopls", "lua_ls", "marksman", "pyright", "ruff_lsp" },
     },
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
@@ -25,6 +25,7 @@ return {
         "typescript-language-server",
         "jq",
         "prettier",
+        "ruff",
       },
     },
   },
