@@ -28,6 +28,12 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>gB"] = { "<cmd>ToggleBlame virtual<cr>", desc = "Toggle git blame" },
     ["<leader>Ni"] = { "<cmd>Neorg index<cr>", desc = "Go to Neorg index file" },
+    -- Terramate commands
+    ["<leader>T"] = { name = "Terramate" },
+    ["<leader>Tg"] = { "<cmd>Terramate generate<cr>", desc = "Terramate generate" },
+    ["<leader>Tl"] = { "<cmd>Terramate list<cr>", desc = "Terramate list" },
+    ["<leader>Tf"] = { "<cmd>TerramateFmt<cr>", desc = "Run Terramatefmt on code" },
+    ["<leader>Td"] = { "<cmd>call terramate#docs()<cr>", desc = "Call Terramate docs on symbol" },
   },
   t = {
     -- setting a mapping to false will disable it

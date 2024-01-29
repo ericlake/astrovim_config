@@ -50,7 +50,19 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      pyright = {
+        settings = {
+          python = {
+            analysis = {
+              typeCheckingMode = "off",
+            },
+          },
+        },
+      },
+    },
   },
+
   -- Configure require("lazy").setup() options
   lazy = {
     defaults = { lazy = true },
