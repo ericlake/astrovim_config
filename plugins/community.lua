@@ -3,7 +3,7 @@ return {
   "AstroNvim/astrocommunity",
 
   -- Add the ability to quickly see the git blame output
-  { import = "astrocommunity.git.blame-nvim" },
+  -- { import = "astrocommunity.git.blame-nvim" },
 
   -- Add nvim trouble debugging tool
   { import = "astrocommunity.diagnostics.trouble-nvim" },
