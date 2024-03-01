@@ -25,7 +25,6 @@ return {
         "typescript-language-server",
         "jq",
         "prettier",
-        "ruff",
       },
     },
   },
