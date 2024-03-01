@@ -4,6 +4,14 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
+#### Extra apps
+
+Make sure to install a Nerd font and update the terminal to use it.
+
+```shell
+brew install lazygit neovim ripgrep
+```
+
 #### Make a backup of your current nvim and shared folder
 
 ```shell
@@ -14,7 +22,8 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 #### Clone AstroNvim
 
 ```shell
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+
 ```
 
 #### Create a new user repository from this template
