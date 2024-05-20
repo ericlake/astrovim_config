@@ -5,7 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      ensure_installed = { "gopls", "lua_ls", "marksman", "pyright", "ruff_lsp", "rust_analyzer" },
+      ensure_installed = { "gopls", "lua_ls", "marksman", "pylsp", "ruff_lsp", "rust_analyzer" },
     },
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
@@ -17,6 +17,7 @@ return {
         "ansible-language-server",
         "bash-language-server",
         "black",
+        "goimports",
         "isort",
         "mdformat",
         "mypy",

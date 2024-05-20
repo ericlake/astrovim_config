@@ -33,13 +33,17 @@ return {
     -- ["<leader>gB"] = { "<cmd>ToggleBlame virtual<cr>", desc = "Toggle git blame" },
 
     -- Neorg
+    ["<leader>N"] = { name = "Neorg" },
     ["<leader>Ni"] = { "<cmd>Neorg index<cr>", desc = "Go to Neorg index file" },
 
+    -- vim-test commands
+    ["<leader>T"] = { name = "vim-test" },
+
     -- Terramate commands
-    ["<leader>T"] = { name = "Terramate" },
-    ["<leader>Tg"] = { "<cmd>Terramate generate<cr>", desc = "Terramate generate" },
-    ["<leader>Tl"] = { "<cmd>Terramate list<cr>", desc = "Terramate list" },
-    ["<leader>Tf"] = { "<cmd>TerramateFmt<cr>", desc = "Run Terramatefmt on code" },
+    ["<leader>M"] = { name = "Terramate" },
+    ["<leader>Mg"] = { "<cmd>Terramate generate<cr>", desc = "Terramate generate" },
+    ["<leader>Ml"] = { "<cmd>Terramate list<cr>", desc = "Terramate list" },
+    ["<leader>Mf"] = { "<cmd>TerramateFmt<cr>", desc = "Run Terramatefmt on code" },
   },
   t = {
     -- setting a mapping to false will disable it

@@ -6,7 +6,10 @@ return {
   -- { import = "astrocommunity.git.blame-nvim" },
 
   -- Add nvim trouble debugging tool
-  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  -- { import = "astrocommunity.diagnostics.trouble-nvim" },
+
+  -- DB support
+  -- { import = "astrocommunity.pack.full-dadbod" },
 
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
